@@ -1,0 +1,159 @@
+2015/07/16 09:14:46.581  INFO: Processing target definition in file '/home/banderson/cfs/config/targets/CFS/target.txt'
+2015/07/16 09:14:46.581  INFO: Processing target definition in file '/home/banderson/cfs/config/targets/COSMOS/target.txt'
+2015/07/16 09:14:46.581  INFO: COSMOS Version: 3.5.0
+2015/07/16 09:14:46.581  INFO: Processing CmdTlmServer configuration in file: /home/banderson/cfs/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2015/07/16 09:14:46.582  INFO: Processing CmdTlmServer configuration in file: /home/banderson/cfs/config/targets/CFS/cmd_tlm_server.txt
+2015/07/16 09:14:46.582  INFO: Processing CmdTlmServer configuration in file: /home/banderson/cfs/config/targets/COSMOS/cmd_tlm_server.txt
+2015/07/16 09:14:46.601  INFO: Marshal load success: /home/banderson/cfs/outputs/tmp/marshal_54e46d2d4ea29ed7eddcda58e6334358.bin
+2015/07/16 09:14:46.602  INFO: Creating thread for interface CFS_INT
+2015/07/16 09:14:46.602  INFO: Creating thread for interface COSMOSINT
+2015/07/16 09:14:46.602  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2015/07/16 09:14:46.621  INFO: Starting packet reading for CFS_INT
+2015/07/16 09:14:46.621  INFO: Connecting to CFS_INT...
+2015/07/16 09:14:46.621  INFO: CFS_INT Connection Success
+2015/07/16 09:14:46.621  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2015/07/16 09:14:46.621  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2015/07/16 09:14:46.622  INFO: PREIDENTIFIED_ROUTER Connection Success
+2015/07/16 09:14:46.625  INFO: Starting packet reading for COSMOSINT
+2015/07/16 09:14:46.625  INFO: Connecting to COSMOSINT...
+2015/07/16 09:14:46.625  INFO: COSMOSINT Connection Success
+2015/07/16 09:14:46.625  INFO: Log File Opened : /home/banderson/cfs/outputs/logs/2015_07_16_09_14_46_tlm.bin
+2015/07/16 09:14:47.525  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:14:50.025  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:14:50.026  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C112001D6F4A0F002300000000010000000000000000010000000000000000000000
+2015/07/16 09:14:50.026  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:14:50.026  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:14:50.026  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:14:50.026  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:14:50.480  INFO: cmd('CFS CFE_ES_RESET with CCSDS_STREAMID 6150, CCSDS_SEQUENCE 49152, CCSDS_LENGTH 1, CCSDS_CHECKSUM 0, CCSDS_FC 1')
+2015/07/16 09:14:50.480  INFO: Log File Opened : /home/banderson/cfs/outputs/logs/2015_07_16_09_14_50_cmd.bin
+2015/07/16 09:14:50.526  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C11200096F4A0F00460D00000000
+2015/07/16 09:14:51.026  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:14:54.026  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:14:54.027  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C113001D734A0F002500000000010000000000000000020000000000000000000000
+2015/07/16 09:14:54.027  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:14:54.027  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:14:54.027  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:14:54.027  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:14:54.527  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C1130009734A0F00890D00000000
+2015/07/16 09:14:54.527  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:14:58.027  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:14:58.028  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C114001D774A0F002400000000010000000000000000020000000000000000000000
+2015/07/16 09:14:58.028  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:14:58.028  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:14:58.028  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:14:58.028  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:14:58.528  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C1140009774A0F00C80D00000000
+2015/07/16 09:14:59.528  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:02.028  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:02.028  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C115001D7B4A0F002500000000010000000000000000020000000000000000000000
+2015/07/16 09:15:02.029  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:02.029  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:02.029  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:02.029  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:02.529  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C11500097B4A0F00060E00000000
+2015/07/16 09:15:03.029  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:06.029  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:06.029  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C116001D7F4A0F002400000000010000000000000000020000000000000000000000
+2015/07/16 09:15:06.030  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:06.030  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:06.030  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:06.030  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:06.530  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C11600097F4A0F00450E00000000
+2015/07/16 09:15:06.530  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:10.030  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:10.030  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C117001D834A0F002600000000010000000000000000020000000000000000000000
+2015/07/16 09:15:10.030  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:10.030  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:10.031  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:10.031  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:10.530  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C1170009834A0F00850E00000000
+2015/07/16 09:15:11.531  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:14.031  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:14.031  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C118001D874A0F002600000000010000000000000000020000000000000000000000
+2015/07/16 09:15:14.031  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:14.032  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:14.032  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:14.032  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:14.531  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C1180009874A0F00C70E00000000
+2015/07/16 09:15:15.032  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:18.032  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:18.032  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C119001D8B4A0F002400000000010000000000000000020000000000000000000000
+2015/07/16 09:15:18.032  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:18.032  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:18.033  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:18.033  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:18.532  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C11900098B4A0F00090F00000000
+2015/07/16 09:15:18.533  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:22.033  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:22.033  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C11A001D8F4A0F002500000000010000000000000000020000000000000000000000
+2015/07/16 09:15:22.033  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:22.033  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:22.033  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:22.034  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:22.533  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C11A00098F4A0F00480F00000000
+2015/07/16 09:15:23.533  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:26.034  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:26.034  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C11B001D934A0F002500000000010000000000000000020000000000000000000000
+2015/07/16 09:15:26.034  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:26.034  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:26.034  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:26.035  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:26.534  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C11B0009934A0F00880F00000000
+2015/07/16 09:15:27.034  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:30.035  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:30.035  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C11C001D974A0F002600000000010000000000000000020000000000000000000000
+2015/07/16 09:15:30.035  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:30.035  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:30.035  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:30.036  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:30.535  ERROR: CFS_INT - Unknown 16 byte packet starting: 0880C11C0009974A0F00C70F00000000
+2015/07/16 09:15:30.536  ERROR: CFS HS_HKPACKET received with actual packet length of 176 but defined length of 52
+2015/07/16 09:15:33.977  INFO: Log File Closed : /home/banderson/cfs/outputs/logs/2015_07_16_09_14_50_cmd.bin
+2015/07/16 09:15:33.977  INFO: Log File Closed : /home/banderson/cfs/outputs/logs/2015_07_16_09_14_46_tlm.bin
+2015/07/16 09:15:34.007  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2015/07/16 09:15:34.007  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2015/07/16 09:15:34.007  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2015/07/16 09:15:34.036  ERROR: CFS CFE_TIME_HKPACKET received with actual packet length of 44 but defined length of 52
+2015/07/16 09:15:34.036  ERROR: CFS_INT - Unknown 36 byte packet starting: 0884C11D001D9B4A0F002400000000010000000000000000020000000000000000000000
+2015/07/16 09:15:34.036  ERROR: CFS SC_HKTLM received with actual packet length of 88 but defined length of 92
+2015/07/16 09:15:34.036  ERROR: CFS DS_HKPACKET received with actual packet length of 108 but defined length of 44
+2015/07/16 09:15:34.036  ERROR: CFS LC_HKPACKET received with actual packet length of 168 but defined length of 176
+2015/07/16 09:15:34.036  ERROR: CFS CFE_TBL_HKPACKET received with actual packet length of 296 but defined length of 288
+2015/07/16 09:15:34.038  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2015/07/16 09:15:34.038  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2015/07/16 09:15:34.038  INFO: Killing thread for interface CFS_INT
+2015/07/16 09:15:35.041  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:124:in `stop'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/interfaces.rb:121:in `stop_thread'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/connections.rb:84:in `disconnect'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/connections.rb:44:in `block in stop'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/connections.rb:43:in `each'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/connections.rb:43:in `stop'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:226:in `stop'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:260:in `closeEvent'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/gui/qt.rb:262:in `method_missing'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/gui/qt.rb:262:in `exec'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/gui/qt_tool.rb:196:in `block in run'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/top_level.rb:682:in `set_working_dir'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/gui/qt_tool.rb:177:in `run'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:403:in `block in run'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/top_level.rb:511:in `catch_fatal_exception'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:376:in `run'
+  tools/CmdTlmServer:15:in `block in <main>'
+  /home/banderson/cfs/tools/tool_launch.rb:16:in `tool_launch'
+  tools/CmdTlmServer:13:in `<main>'
+  
+  Thread Backtrace:
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/interfaces/udp_interface.rb:111:in `stop'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/interfaces/udp_interface.rb:111:in `rescue in read'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/interfaces/udp_interface.rb:106:in `read'
+  /home/banderson/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/cosmos-3.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:81:in `block in start'
+
+2015/07/16 09:15:35.051  INFO: Disconnected from interface CFS_INT
+2015/07/16 09:15:35.052  INFO: Killing thread for interface COSMOSINT
+2015/07/16 09:15:35.052  INFO: Clean disconnect from COSMOSINT (returned nil)
+2015/07/16 09:15:35.052  INFO: Connection Lost for COSMOSINT
+2015/07/16 09:15:35.052  INFO: Stopped packet reading for COSMOSINT
+2015/07/16 09:15:35.062  INFO: Disconnected from interface COSMOSINT

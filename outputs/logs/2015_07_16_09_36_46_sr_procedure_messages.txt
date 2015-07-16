@@ -1,0 +1,5 @@
+2015/07/16 09:36:46.341 (SCRIPTRUNNER): Starting script: procedure.rb
+2015/07/16 09:36:51.840 (procedure.rb:5): ERROR: CHECK: CFS CFE_EVS_PACKET MESSAGE == 'Reset Counters command' failed with value == Stop Application CF Completed. after waiting 5.009481522 seconds
+2015/07/16 09:37:10.314 (SCRIPTRUNNER): User pressed Retry
+2015/07/16 09:37:14.231 (SCRIPTRUNNER): User pressed Stop
+2015/07/16 09:37:14.241 (SCRIPTRUNNER): Script stopped: procedure.rb

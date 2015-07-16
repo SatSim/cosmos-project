@@ -1,0 +1,7 @@
+if tlm("CFS CFE_ES_HKPACKET CCSDS_STREAMID") == 2056
+  cmd("CFS CFE_ES_RESET with CCSDS_CHECKSUM 0, CCSDS_FC 1, CCSDS_LENGTH 1, CCSDS_SEQUENCE 49152, CCSDS_STREAMID 6150")
+end
+
+wait_check("CFS CFE_EVS_PACKET MESSAGE == 'Reset Counters command'", 5)
+
+prompt("Command successful!")

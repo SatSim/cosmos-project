@@ -1,0 +1,4 @@
+2015/07/16 09:27:01.056 (SCRIPTRUNNER): Starting script: 
+2015/07/16 09:27:01.335 (:1): cmd("CFS CFE_ES_RESET with CCSDS_CHECKSUM 0, CCSDS_FC 1, CCSDS_LENGTH 1, CCSDS_SEQUENCE 49152, CCSDS_STREAMID 6150")
+2015/07/16 09:27:01.535 (:3): CHECK: CFS CFE_EVS_PACKET MESSAGE == 'Reset Counters command' success with value == Reset Counters command after waiting 0.000398347 seconds
+2015/07/16 09:27:01.537 (SCRIPTRUNNER): Script completed: 

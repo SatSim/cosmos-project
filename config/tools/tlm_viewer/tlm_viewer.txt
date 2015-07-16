@@ -1,0 +1,15 @@
+# Automatically pull in screens from all targets
+AUTO_TARGETS
+
+# Create a new dropdown with a few specific sceens
+GROUP "My group"
+  GROUP_SCREEN "CFS" "hs.txt"
+
+# NEW_COLUMN
+
+
+# TARGET "CFS"
+#  SCREEN "event.txt"
+
+# ADD_SHOW_ON_STARTUP INST ADCS 10 10
+# ADD_SHOW_ON_STARTUP INST HS 500 500

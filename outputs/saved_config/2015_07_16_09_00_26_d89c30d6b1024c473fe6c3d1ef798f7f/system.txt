@@ -1,0 +1,3 @@
+DECLARE_TARGET CFS nil target.txt
+DECLARE_TARGET COSMOS nil target.txt
+DECLARE_TARGET SYSTEM nil 

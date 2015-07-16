@@ -1,0 +1,4 @@
+2015/07/16 09:39:10.044 (SCRIPTRUNNER): Starting script: procedure.rb
+2015/07/16 09:39:15.362 (procedure.rb:5): ERROR: CHECK: CFS CFE_EVS_PACKET MESSAGE == 'Reset Counters command' failed with value == CPU Hogging Detected after waiting 5.002402904 seconds
+2015/07/16 09:41:15.973 (SCRIPTRUNNER): User pressed Stop
+2015/07/16 09:41:15.989 (SCRIPTRUNNER): Script stopped: procedure.rb

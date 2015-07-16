@@ -1,0 +1,4 @@
+2015/07/16 09:29:40.191 (SCRIPTRUNNER): Starting script: procedure.rb
+2015/07/16 09:29:40.672 (procedure.rb:5): CHECK: CFS CFE_EVS_PACKET MESSAGE == 'Reset Counters command' success with value == Reset Counters command after waiting 0.000470645 seconds
+2015/07/16 09:29:42.276 (procedure.rb:7): User pressed 'Ok' for 'Command successful!'
+2015/07/16 09:29:42.332 (SCRIPTRUNNER): Script completed: procedure.rb
